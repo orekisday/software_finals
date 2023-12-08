@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{9658F2DB-5305-48BB-9070-7C6086C6BC53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MAUItest/MainPage.xaml">
+    <Files>
+      <File FileName="MAUItest/MainPage.xaml" Line="45" Column="20" />
+      <File FileName="MAUItest/MainPage.xaml.cs" Line="16" Column="61" />
+      <File FileName="MAUItest/Views/AccountingPage.xaml" Line="83" Column="15" />
+      <File FileName="MAUItest/Views/AccountingPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MAUItest" expanded="True">
+            <Node name="MAUItest" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="DataView.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MAUItest PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

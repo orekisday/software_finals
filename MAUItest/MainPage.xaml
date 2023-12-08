@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUItest.MainPage">
+
+    <!--<ScrollView>
+        <VerticalStackLayout
+            Spacing="0"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Hello, World!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Welcome to .NET Multi-platform App UI"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>-->
+    <StackLayout BackgroundColor="#ededed">
+        <HorizontalStackLayout BackgroundColor="#31304D">
+            <Image Margin="15, 5"
+                   WidthRequest="80"
+                   HeightRequest="80"
+                   Aspect="AspectFit"
+                   Source="https://cdn-icons-png.flaticon.com/128/7892/7892621.png"/>
+            
+            <Label Margin="455, 0"
+                   FontSize="25"
+                   Text="Accounting app"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+
+        </HorizontalStackLayout>
+        <StackLayout >
+            <Label Margin="20, 20, 20, 40"
+                   Text="Login"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   TextColor="#161A30"/>
+        </StackLayout>
+
+        <VerticalStackLayout
+            Spacing="20"
+            Margin="40, 0"
+            VerticalOptions="Center">
+            <Frame
+                BorderColor="#31304D"
+                BackgroundColor="#F0ECE5"
+                HeightRequest="120"
+                WidthRequest="700"
+                Padding="80, 40">
+                <HorizontalStackLayout>
+                    <Label Text="Username:"
+                           TextColor="#161A30"
+                           FontAttributes="Bold"
+                           FontSize="20"/>
+                    <Entry BackgroundColor="WhiteSmoke"
+                           Placeholder="Enter your username"
+                           TextColor="#161A30"
+                           FontSize="15"
+                           Margin="30, 20"
+                           WidthRequest="400"
+                           HeightRequest="50"
+                           x:Name="username"/>
+
+                </HorizontalStackLayout>
+            </Frame>
+            <Frame
+                BorderColor="#31304D"
+                BackgroundColor="#F0ECE5"
+                HeightRequest="120"
+                WidthRequest="700"
+                Padding="80, 40">
+                <HorizontalStackLayout>
+                    <Label Text="Passcode:"
+                           TextColor="#161A30"
+                           FontAttributes="Bold"
+                           FontSize="20"/>
+                    <Entry BackgroundColor="WhiteSmoke"
+                           Placeholder="Enter your passcode"
+                           TextColor="#161A30"
+                           FontSize="15"
+                           Margin="30, 20"
+                           WidthRequest="400"
+                           HeightRequest="50"
+                           IsPassword="True"
+                           x:Name="passcode"/>
+
+                </HorizontalStackLayout>
+            </Frame>
+            <Button Text="Go"
+                    FontSize="20"
+                    TextColor="White"
+                    BackgroundColor="#B6BBC4"
+                    Margin="400, 0"
+                    Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </StackLayout>
+
+</ContentPage>
+

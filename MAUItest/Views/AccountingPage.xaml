@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUItest.Views.AccountingPage"
+             Title="Accounting Page">
+    <StackLayout BackgroundColor="#ededed">
+        <Frame
+            Margin="0, 50, 0, 50"
+            BorderColor="#31304D"
+            BackgroundColor="#F0ECE5"
+            HeightRequest="100"
+            WidthRequest="400"
+            Padding="80, 40">
+
+            <Entry
+                BackgroundColor="WhiteSmoke"
+                Placeholder="Enter the amount"
+                TextColor="#161A30"
+                FontSize="20"
+                WidthRequest="300"
+                HeightRequest="50"
+                HorizontalTextAlignment="Center"
+                x:Name="amount"/>
+
+        </Frame>
+        <Button
+            Text="Add funds"
+            FontSize="25"
+            TextColor="White"
+            BackgroundColor="#B6BBC4"
+            Margin="500, 0"/>
+        <HorizontalStackLayout
+            Spacing="50"
+            Padding="320, 80">
+            <Button
+                HeightRequest="100"
+                WidthRequest="100"
+                ImageSource="https://cdn-icons-png.flaticon.com/128/575/575780.png"
+                />
+            <Button
+                HeightRequest="100"
+                WidthRequest="100">
+                
+                <Button.ImageSource>
+                    <UriImageSource Uri="https://cdn-icons-png.flaticon.com/128/575/575780.png"/>
+                </Button.ImageSource>
+            </Button>
+            <Button
+                HeightRequest="100"
+                WidthRequest="100">
+                
+                <Button.ImageSource>
+                    <UriImageSource Uri="https://cdn-icons-png.flaticon.com/128/3163/3163478.png"/>
+                </Button.ImageSource>
+            </Button>
+            <Button
+                HeightRequest="100"
+                WidthRequest="100">
+                
+                <Button.ImageSource>
+                    <UriImageSource Uri="https://cdn-icons-png.flaticon.com/128/2515/2515183.png"/>
+                </Button.ImageSource>
+            </Button>
+            <Button
+                HeightRequest="100"
+                WidthRequest="100">
+                
+                <Button.ImageSource>
+                    <UriImageSource Uri="https://cdn-icons-png.flaticon.com/128/2357/2357063.png"/>
+                </Button.ImageSource>
+            </Button>
+            <Button
+                HeightRequest="100"
+                WidthRequest="100">
+                
+                <Button.ImageSource>
+                    <UriImageSource Uri="https://cdn-icons-png.flaticon.com/128/2382/2382461.png"/>
+                </Button.ImageSource>
+            </Button>
+
+        </HorizontalStackLayout>
+    </StackLayout>
+</ContentPage>
