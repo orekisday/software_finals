@@ -51,3 +51,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUItest.Views.DataView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views/DataView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/DataView.xaml
+
+[/Users/cutesytee/Projects/MAUItest/MAUItest/Views/EditContactPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUItest.Views.EditContactPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/EditContactPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/EditContactPage.xaml

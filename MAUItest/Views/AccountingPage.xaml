@@ -3,7 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUItest.Views.AccountingPage"
              Title="Accounting Page">
-    <StackLayout BackgroundColor="#ededed">
+
+    <ListView x:Name="listContacs"
+              BackgroundColor="Transparent"
+              SeparatorColor="Gray"
+              RowHeight="65"
+              ItemSelected="listContacs_ItemSelected"
+              ItemTapped="listContacs_ItemTapped"
+              >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}"
+                          Detail="{Binding Email}">
+
+
+                </TextCell>
+
+            </DataTemplate>
+
+        </ListView.ItemTemplate>
+
+
+    </ListView>
+    <!--<StackLayout BackgroundColor="#ededed">
         <Frame
             Margin="0, 50, 0, 50"
             BorderColor="#31304D"
@@ -79,5 +101,5 @@
             </Button>
 
         </HorizontalStackLayout>
-    </StackLayout>
+    </StackLayout>-->
 </ContentPage>
