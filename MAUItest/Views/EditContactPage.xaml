@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUItest.Views.EditContactPage"
-             Title="Edit Contact Page">
+             Title="Edit Contacts Page">
     <VerticalStackLayout Spacing="10"
                          Margin="20, 10, 20, 0">
         <!--<Label
@@ -61,5 +61,11 @@
                 </Entry>
             </HorizontalStackLayout>
         </Frame>
+        <Button x:Name="btnUpdate"
+                Text="Update"
+                Clicked="btnUpdate_Clicked">
+
+
+        </Button>
     </VerticalStackLayout>
 </ContentPage>
