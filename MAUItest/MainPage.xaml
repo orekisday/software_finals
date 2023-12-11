@@ -38,7 +38,25 @@
         </VerticalStackLayout>
     </ScrollView>-->
     <StackLayout BackgroundColor="#ededed">
-        <HorizontalStackLayout BackgroundColor="#31304D">
+            <FlexLayout Direction="Column">
+
+        <!-- App Bar -->
+        <FlexLayout Direction="Row" AlignItems="Center" BackgroundColor="#3498db" HeightRequest="60">
+            <!-- Icon on the Left -->
+            <Image Source="https://cdn-icons-png.flaticon.com/128/7892/7892621.png" HeightRequest="30" WidthRequest="30" Margin="10"/>
+
+            <!-- Text in the Middle -->
+            <Label Text="My App" FontSize="20" TextColor="White" FlexLayout.Grow="1"/>
+            
+            <!-- Any additional elements on the right (if needed) -->
+
+        </FlexLayout>
+
+        <!-- Main Content Goes Here -->
+
+    </FlexLayout>
+
+        <!--<HorizontalStackLayout BackgroundColor="#31304D">
             <Image Margin="15, 5"
                    WidthRequest="80"
                    HeightRequest="80"
@@ -47,13 +65,13 @@
             
             <Label Margin="455, 0"
                    FontSize="25"
-                   Text="Accounting app"
+                   Text="Contacts management app"
                    HorizontalOptions="Center"
                    VerticalOptions="CenterAndExpand"
                    TextColor="White"
                    FontAttributes="Bold"/>
 
-        </HorizontalStackLayout>
+        </HorizontalStackLayout>-->
         <StackLayout >
             <Label Margin="20, 20, 20, 40"
                    Text="Login"
